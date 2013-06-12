@@ -1,0 +1,9 @@
+{
+  "name": "namacha",
+  "version": "0.0.0",
+  "dependencies": {
+		"DefinitelyTyped":   "git://github.com/anchann/DefinitelyTyped.git"
+  },
+  "devDependencies": {
+  }
+}

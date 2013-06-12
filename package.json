@@ -1,0 +1,16 @@
+{
+  "name": "namacha",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+		"grunt"              : "*",
+		"express"            : "3.2.2",
+		"underscore"         : "*",
+		"grunt-typescript"   : "*",
+		"q"                  : "*",
+    "phantom"            : "*"
+  }
+}
