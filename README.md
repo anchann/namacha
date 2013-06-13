@@ -1,14 +1,14 @@
 *Work in progress*
 
-A static snapshot scraper/server for SEO in single page hash-bang applications.
+A static snapshot scraper/server for SEO in single page hash-bang applications (like those built with AngularJS).
 
 ## To install
 
 1. Clone the repo
-1. npm install
+1. `npm install`
 1. `sudo npm install -g grunt-cli`
 1. make sure phantomjs is in your path (e.g. by `sudo npm install -g phantomjs`)
-1. bower install (to get bower do `sudo npm install -g bower`)
+1. `bower install` (to get bower do `sudo npm install -g bower`)
 1. `sudo npm install -g typescript`
 1. `grunt && node app.js`
 
