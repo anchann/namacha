@@ -21,7 +21,7 @@ The app runs a web server with two routes. Fire a `POST` request to `/scrape` wi
 whatever fragment you have appearing after the hashbang. The fire a `GET` request to `basePath?_escaped_fragment_=fragment`
 and you'll be served the scraped content.
 
-Concretely, say your config contains:
+Concretely, say your `config.json` file (in the top level directory; gitignored; for defaults see `scripts/config.ts`) contains:
 
 ```
 {
@@ -35,7 +35,7 @@ Fire up the app and issue the following HTTP request to scrape
 `POST localhost:3000/scrape` with body `route=/item/123`
 
 This will go to `http://my-awesome-app.com/index.html/#!/item/123`, scrape the content, and save it on disk.
-Then hit up (i.e. GET) the following URL
+Now to see the scraped content that the search engine would see, hit up the following URL
 
 `localhost:3000/index.html?_escaped_fragment_=/item/123`
 
