@@ -44,4 +44,12 @@ currently serving stuff from a different domain.
 Wire it all up with varnish to make sure things are served from the same domain. Then schedule
 whatever content management system you have backing your application to fire POST scrape requests.
 
-Still a work in progress, will clean things up as I go. 
+Still a work in progress, will clean things up as I go.
+
+
+TODO:
+
+* allow the user to provide named completenessDetection functions, and submit a name with the scrape
+request POST. That way, we know when it's safe to scrape the content (e.g. Ajax calls all came back,
+content is stable, etc)
+
