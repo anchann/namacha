@@ -44,6 +44,7 @@ currently serving stuff from a different domain.
 
 Wire it all up with varnish to make sure things are served from the same domain. Then schedule
 whatever content management system you have backing your application to fire POST scrape requests.
+Maybe you want to pair these requests with your sitemap generation in some nice way.
 
 Still a work in progress, will clean things up as I go.
 
